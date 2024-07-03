@@ -1,11 +1,12 @@
-import React from 'react'
+
+import Image from "next/image";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 function Card({isImg=true,txt='Membership Organisations'}) {
   return (
     <div className="card w-72 shadow-xl my-5 p-2">
         {isImg &&  <figure className="px-5 pt-5">
-      <img
+      <Image
         src="card1.svg"
         alt="Shoes"
         className="rounded-xl" />
