@@ -9,12 +9,12 @@ const Caring = () => {
         <br/>  trends and more. See who's joining the community,
              read about how our community are increasing their membership income and lot's more.​
         </h2>
-        <div className='py-6 flex justify-around mt-10 flex-col lg:flex-row items-center'>
+        {/* <div className='py-6 flex justify-around mt-10 flex-col lg:flex-row items-center'>
             <Card isImg={false} txt={`Creating Streamlined Safeguarding Processes with OneRen`}/>
             <Card isImg={false} txt={`What are your safeguarding responsibilities and how can you manage them?`}/>
             <Card isImg={false} txt={`What are your safeguarding responsibilities and how can you manage them`}/>
           
-        </div>
+        </div> */}
     </div>
   )
 }
