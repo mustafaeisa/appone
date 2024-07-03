@@ -7,6 +7,8 @@ function Card({isImg=true,txt='Membership Organisations'}) {
     <div className="card w-72 shadow-xl my-5 p-2">
         {isImg &&  <figure className="px-5 pt-5">
       <Image
+       height={70}
+       width={150}
         src="card1.svg"
         alt="Shoes"
         className="rounded-xl" />
