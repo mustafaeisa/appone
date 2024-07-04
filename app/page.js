@@ -1,4 +1,4 @@
-import Caring from "@/components/caring";
+// import Caring from "@/components/caring";
 import Clients from "@/components/clients";
 import Community from "@/components/community";
 import Footer from "@/components/footer";
@@ -14,7 +14,7 @@ export default function Home() {
      <Clients/>
      <Community/>
      <Hero_2/>
-     <Caring/>
+     {/* <Caring/> */}
      <Footer/>
     </main>
   );
